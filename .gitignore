@@ -1,0 +1,40 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.env/
+.env.*
+.venv/
+
+# ===============================
+# Django
+# ===============================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (optional)
+# Uncomment if you don't want to track migrations
+# **/migrations/
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.i
